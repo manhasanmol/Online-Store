@@ -1,0 +1,33 @@
+<%- include("partials/about/header") -%>
+
+  <%- include("partials/about/header") -%>
+
+  <div class="container">
+    <h1 class="main-heading">About Us</h1>
+    <p>Welcome to Our Marketplace!</p>
+    <p class="about-description">Our platform is a community-driven marketplace where individuals can post their products for delivery to others. Whether you're selling something you crafted, second-hand items, or unique services, you can share it with the community here!</p>
+
+    <h2 class="section-heading">Delivery Options</h2>
+    <ul class="delivery-options">
+      <% deliveryOptions.forEach(option => { %>
+        <li><strong><%= option.option %>:</strong> <%= option.description %></li>
+      <% }); %>
+    </ul>
+
+    <h2 class="section-heading">Community Guidelines</h2>
+    <ul class="community-guidelines">
+      <% guidelines.forEach(guideline => { %>
+        <li><%= guideline %></li>
+      <% }); %>
+    </ul>
+
+    <h2 class="section-heading">Connect with Us</h2>
+    <p class="connect-text">We are committed to continuously improving our platform and user experience. If you have any questions, feedback, or concerns, please don't hesitate to contact us. Our support team is always ready to assist you!</p>
+
+    <p>Thank you for being part of our community! Happy buying and selling!</p>
+  </div>
+
+  <%- include("partials/about/footer") -%>
+
+
+<%- include("partials/about/footer") -%>

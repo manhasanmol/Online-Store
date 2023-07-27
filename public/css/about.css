@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Optional: Styling for the delivery options and guidelines */
+.delivery-options li,
+.community-guidelines li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.delivery-options strong,
+.community-guidelines strong {
+  font-weight: bold;
+}
+
+/* Optional: Styling for the 'Connect with Us' section */
+.connect-section {
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Optional: Styling for the footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
